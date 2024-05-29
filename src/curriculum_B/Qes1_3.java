@@ -71,7 +71,8 @@ public class Qes1_3 {
     }
         }
 	
-    public static String jankenHantei(String input) {
+	// じゃんけんの手の設定	,0ならグー,1ならチョキ,2ならパー
+	public static String jankenHantei(String input) {
         String jankenTe = null;
         if (input.equals("0")) {
             jankenTe = "「グー」";
