@@ -25,7 +25,7 @@ public class Qes1_13 {
 		// 文字型の変数宣言、初期値を設定
 		char text1 = '\u0000';
 		// 文字列型の変数宣言、初期値を設定
-		String text2 = "";
+		String text2 = null;
 		// ブーリアン型の変数宣言、初期値を設定
 		boolean check = false;
 
